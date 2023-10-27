@@ -21,7 +21,7 @@ https://github.com/jayrambagal/probot_exe/assets/94613732/0d1adc58-78cd-4f5b-ab1
 #### Installation:
 
 - Clone the repository.
-- Install dependencies using npm install.
+- Install dependencies using `npm install`.
 - Set up the necessary environment variables, including the below keys.
     - WEBHOOK_PROXY_URL,
     - APP_ID,
@@ -30,6 +30,8 @@ https://github.com/jayrambagal/probot_exe/assets/94613732/0d1adc58-78cd-4f5b-ab1
     - GITHUB_CLIENT_ID,
     - GITHUB_CLIENT_SECRET,
     - OPENAI_API_KEY,
+- Run the app using - `npm start`
+- Go to `localhost:3000`, register with your GitHub account, and grant the required permissions.
 
 #### Configuration:
 - Customize the Probot app settings in the index.js file.
