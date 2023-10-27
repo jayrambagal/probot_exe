@@ -22,16 +22,32 @@ https://github.com/jayrambagal/probot_exe/assets/94613732/0d1adc58-78cd-4f5b-ab1
 
 - Clone the repository.
 - Install dependencies using `npm install`.
-- Set up the necessary environment variables, including the below keys.
+- Run the app using - `npm start`
+
+![Capture](https://github.com/jayrambagal/probot_exe/assets/94613732/0039d0ae-ad96-42f8-8e50-b96d03e17139)
+
+- Go to `localhost:3000`, register with your GitHub account, and grant the required permissions.
+- then It automatically setup your .env file with following env variables on your local
     - WEBHOOK_PROXY_URL,
     - APP_ID,
     - PRIVATE_KEY,
     - WEBHOOK_SECRET,
     - GITHUB_CLIENT_ID,
     - GITHUB_CLIENT_SECRET,
+
+- Add your openai API key in env variable.
     - OPENAI_API_KEY,
-- Run the app using - `npm start`
-- Go to `localhost:3000`, register with your GitHub account, and grant the required permissions.
+- Then **restart** your server
+
+**Note :** make sure You gave the permission of you GitHubApp through GitHub developers settings > **permission-on-pull-requests**
+- Pull requests
+- related comments 
+- assignees
+- labels
+- milestones
+- merges
+
+
 
 #### Configuration:
 - Customize the Probot app settings in the index.js file.
@@ -47,16 +63,15 @@ https://github.com/jayrambagal/probot_exe/assets/94613732/0d1adc58-78cd-4f5b-ab1
 - Integration with OpenAI:
     - Implemented a dedicated service (OpenAIService) for communication with the LLP API.
     - Ensured secure handling of the API key.
+#### OpenAI Integration: 
+- Leveraging the power of the OpenAI API for intelligent code analysis.
+#### Modular Structure:
+- Organized codebase with a modular approach for better maintainability.
+#### Quality Assessment:
+- Adherence to coding best practices, high-quality codebase, and effective integration with external APIs.
+#### Screen Recording Demo:
+- Provided a visual guide through a screen recording, highlighting key features and interactions.
 
-#### Challenges Faced:
-
-### 4. Suggestions for Improvement:
-Enhanced User Interface:
-
-- Explore possibilities for integrating a web interface for a more user-friendly experience.
-- Provide visual representations of code suggestions.
-- Error Handling:
-- Implement robust error handling and logging mechanisms to enhance app stability.
 
 ### 4. Conclusion:
 Probot_exe, powered by Probot and OpenAI, aims to revolutionize the code review process with intelligent suggestions.
